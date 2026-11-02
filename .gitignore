@@ -70,9 +70,6 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-.env.test
-.env.production
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -118,3 +115,12 @@ dist
 .pnp.*
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Node
+
+# Environment variables & secrets (added by GitHub Guardian)
+*.env
+!.env.example
+!.env.sample
+.envrc
+.venv/
+venv/
+config.bat
